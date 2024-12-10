@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+header .logo {
+  width: 30%;
+  margin: 25px 35px;
+  padding: 15px 20px;
+}
+header .logo img {
+  width: 30%;
+}
+header .text {
+  width: 40%;
+  margin: auto;
+}
+header .text ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 20px;
+  list-style: none;
+}
+header .text ul li {
+  margin: 0 10px;
+}
+header .text ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #030709;
+  margin: 10px 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header .text ul li a:hover {
+  color: #2a80c6;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#piercing {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFDFE;
+}
+#piercing .check {
+  text-align: center;
+  margin: 50px;
+}
+#piercing .check h1 {
+  font-size: 72px;
+  color: #0C0A1C;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 35px;
+}
+#piercing .check p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #030107;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+}
+#piercing .boxes {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#piercing .boxes .box {
+  background-color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 25%;
+  padding: 40px 10px 70px 10px;
+  margin: 15px;
+  text-align: center;
+  border-style: solid;
+  border-color: #707070;
+  border-radius: 20px 20px 20px 20px;
+}
+#piercing .boxes .box:hover {
+  background-color: #b6d5fe;
+}
+#piercing .boxes .box h1 {
+  font-size: 72px;
+  color: #0C0A1C;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+#piercing .boxes .box p {
+  color: #3B3D44;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+#piercing .boxes .box h2 {
+  color: #0C0A1C;
+  font-size: 28px;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+#piercing .boxes .box a {
+  text-decoration: none;
+  color: #2a80c6;
+  font-size: 17px;
+}
+#piercing .boxes .box button {
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: black;
+  border: solid black;
+  background-color: white;
+  margin-top: 25px;
+  font-size: 1.2rem;
+}
+#piercing .boxes .box button:hover {
+  border: solid rgb(210, 28, 28);
+  color: rgb(210, 40, 40);
+}
+
+#get {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FFFDFE;
+}
+#get .sekil {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  justify-content: space-around;
+}
+#get .sekil .gif {
+  width: 50%;
+  margin: auto;
+}
+#get .sekil .text {
+  width: 40%;
+}
+#get .sekil .text h1 {
+  color: #0c0a1c;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+#get .sekil .text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#get .sekil .text a {
+  color: #030107;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: underline;
+}
+#get .sekil .text a:hover {
+  color: #2a80c6;
+  text-decoration: underline;
+}
+
+#animation {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FFFDFE;
+}
+#animation .son {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+#animation .son .soz {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 20%;
+}
+#animation .son .soz h1 {
+  font-size: 72px;
+}
+#animation .process {
+  width: 35%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #303364;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: 70px 100px;
+}
+#animation .process h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+#animation .process a {
+  color: #FFFFFF;
+}
+#animation .boyuk {
+  width: 20%;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #dfdfe4;
+  position: relative;
+}
+footer .esas {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .esas .nomre {
+  width: 32%;
+  padding-top: 25px;
+  height: 42vh;
+}
+footer .esas .nomre h1 {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 15px 10px 45px 17px;
+}
+footer .esas .nomre h2 {
+  padding: 20px 10px;
+  font-size: 2rem;
+}
+footer .esas .nomre h2:hover {
+  color: #2a80c6;
+}
+footer .esas .nomre a {
+  color: #0c0a1c;
+  font-size: 1.3rem;
+}
+footer .esas .nomre a:hover {
+  color: #2a80c6;
+}
+footer .esas .link {
+  width: 33%;
+}
+footer .esas .link h3 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 17px;
+}
+footer .esas .link ul {
+  padding: 18px;
+  color: #000000;
+  margin: 25px 0;
+}
+footer .esas .link ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  color: #000000;
+  margin: 20px;
+}
+footer .esas .link ul li a {
+  color: #000000;
+  margin-right: 20px;
+  text-decoration: none;
+}
+footer .esas .link ul li a:hover {
+  color: #2a80c6;
+  text-decoration: underline;
+}
+footer .esas .be {
+  width: 40%;
+  height: 36vh;
+  margin: auto;
+}
+footer .esas .be img {
+  width: 26%;
+  margin-left: 20px;
+}
+footer .esas .be p {
+  font-size: 19px;
+  margin: 30px;
+  width: 80%;
+  color: #000000;
+}
+footer .esas .be a {
+  color: #0c0a1c;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 28px;
+}
+footer .son {
+  width: 80%;
+  position: relative;
+}
+footer .son .them {
+  position: absolute;
+}
+footer .son .them p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}/*# sourceMappingURL=piercing.css.map */
